@@ -27,6 +27,9 @@ export default function Navbar() {
             <Link href={'/transactions'}>
             <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>Transactions</li>
             </Link>
+            <Link href={'/notifications'}>
+            <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>Notifications</li>
+            </Link>
             {/* <li className='cursor-pointer text-xl font-bold transition ease-in-out delay-50 hover:-translate-y-1'>Settings</li> */}
 
         </ul>  
