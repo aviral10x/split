@@ -48,12 +48,12 @@ const Home: NextPage = () => {
         </div>
         </main>
       </div>
-          <Link href="/members"><a className={styles.link}>Members</a></Link>
+          {/* <Link href="/members"><a className={styles.link}>Members</a></Link>
           <Link href="/balances"><a className={styles.link}>Balances</a></Link>
           <Link href="/add-transaction"><a className={styles.link}>Add transaction</a></Link>
           <Link href="/settle-up"><a className={styles.link}>Settle up</a></Link>
           <Link href="/deposit"><a className={styles.link}>Deposit</a></Link>
-          <Link href="/withdraw"><a className={styles.link}>Withdraw</a></Link>
+          <Link href="/withdraw"><a className={styles.link}>Withdraw</a></Link> */}
     </>
   );
 }
